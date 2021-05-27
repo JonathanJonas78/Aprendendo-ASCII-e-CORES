@@ -1,0 +1,6 @@
+Se nao tiver os modulos copie o que está entre aspas e cole no terminal:
+
+'
+pip install termcolor 
+pip install pyfiglet 
+'
