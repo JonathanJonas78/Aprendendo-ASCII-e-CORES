@@ -18,7 +18,8 @@ from time import sleep # Responsavel por dar um pequeno delay
 system('cls') # Limpa o terminal
 Texto_digitado = str(input("Digite alguma coisa: "))
 Cor_digitada = str(input("Escolha uma cor [R,G,B]:")).lower()
-fonte = Figlet(font='banner3-D') # Tipo de formatação da fonte que será usado.
+fonte = Figlet(font='banner3-D') # Tipo de formatação da fonte que será usado. 
+# Se quizer mudar, vá para o site http://www.figlet.org/examples.html e troque o banner3-D pela fonte que deseja.
 
 system('cls') # Limpa o terminal
 if Cor_digitada == 'r':
